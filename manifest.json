@@ -1,0 +1,13 @@
+{
+	"name": "Вставить границу",
+  "version": "1.0",
+  "manifest_version": 3,
+
+  "action": {
+    "default_icon": "/images/icon36.png",
+	  "default_popup": "/popup.html"
+  },
+
+  "permissions": ["tabs", "activeTab", "scripting"]
+
+}

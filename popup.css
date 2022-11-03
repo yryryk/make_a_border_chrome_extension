@@ -1,0 +1,33 @@
+.page {
+  background-color: rgb(136, 157, 205);
+  width: 350px;
+  height: 350px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+}
+
+.on-button {
+  height: 150px;
+  width: 150px;
+  box-shadow: rgb(102 118 154) 23.42px 23.42px 64px inset, rgb(170 196 255) -23.42px -23.42px 64px inset, rgb(102 118 154) 23.42px 23.42px 64px, rgb(170 196 255) -23.42px -23.42px 64px;
+  border-radius: 50%;
+  background: linear-gradient(145deg, rgb(118, 136, 178), rgb(154, 178, 232));
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 0;
+}
+
+.on-button:hover {
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+.title {
+  font-family: SWGothi;
+  font-size: 26px;
+  margin: 0;
+}
